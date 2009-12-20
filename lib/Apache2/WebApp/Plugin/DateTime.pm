@@ -23,7 +23,7 @@ use Params::Validate qw( :all );
 use POSIX qw( strftime );
 use Time::ParseDate;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
