@@ -8,13 +8,12 @@ Install this package from source:
 
 Perl one liner using CPAN.pm:
 
-  perl -MCPAN -e 'install Apache2::WebApp::Plugin::DateTime'
+  $ perl -MCPAN -e 'install Apache2::WebApp::Plugin::DateTime'
 
 
 Use of CPAN.pm in interactive mode:
 
   $ perl -MCPAN -e shell
-
   cpan> install Apache2::WebApp::Plugin::DateTime
   cpan> quit
 
@@ -33,7 +32,6 @@ A. Since you are an unpriviledged user, you aren't allowed to install modules in
    will make it easier when installing other 3rd party CPAN modules in the future.
 
   $ perl -MCPAN -e shell
-
    cpan shell -- CPAN exploration and modules installation (v1.X)
    ReadLine support enabled
 
